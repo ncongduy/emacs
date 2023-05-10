@@ -9,7 +9,7 @@
 # install emacs via snap (Ubuntu OS)
 sudo add-apt-repository ppa:kelleyk/emacs
 sudo apt-get update
-sudo snap install emacs --classic
+sudo apt install emacs (or sudo snap install emacs --classic)
 
 # install Doom’s other dependencies
 sudo apt-get install ripgrep fd-find
