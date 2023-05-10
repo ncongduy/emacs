@@ -1,5 +1,5 @@
 # emacs
 
 ## installation
-- [emacs](https://www.gnu.org/software/emacs/download.html#gnu-linux)
+- [emacs](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org#ubuntu)
 - [doom-emacs](https://github.com/doomemacs/doomemacs#install)
