@@ -7,12 +7,12 @@
 ## installation via my steps
 ```bash
 # install emacs via snap (Ubuntu OS)
-add-apt-repository ppa:kelleyk/emacs
-apt-get update
-snap install emacs --classic
+sudo add-apt-repository ppa:kelleyk/emacs
+sudo apt-get update
+sudo snap install emacs --classic
 
 # install Doom’s other dependencies
-apt-get install ripgrep fd-find
+sudo apt-get install ripgrep fd-find
 
 # install doom
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
@@ -22,5 +22,5 @@ git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 export PATH=$PATH:$HOME/.config/emacs/bin
 
 # remove .emacs.d folder
-rm -r .emacs.d
+sudo rm -r .emacs.d
 ```
