@@ -20,4 +20,7 @@ git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 
 # add the code below into .bashrc
 export PATH=$PATH:$HOME/.config/emacs/bin
+
+# remove .emacs.d folder
+rm -r .emacs.d
 ```
