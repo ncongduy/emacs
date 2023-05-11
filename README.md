@@ -24,3 +24,18 @@ export PATH=$PATH:$HOME/.config/emacs/bin
 # remove .emacs.d folder
 sudo rm -r .emacs.d
 ```
+
+## usage
+```
+# reload config
+space h r r
+
+# go to config file
+space f p
+
+# open documentation
+space h d h
+
+# open project
+space p p
+```
